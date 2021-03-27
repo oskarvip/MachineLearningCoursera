@@ -5,7 +5,7 @@ Repo used for programming assignments for the Coursera Machine Learning course
 Octave is run using docker. Further details can be found at [Github](https://github.com/ymatsunaga/docker-octave)
 ### Octave on Jupiter Server 
 ```console
-docker run --rm -p 8888:8888 -v /Users/oskar.enhorning/Documents/Git/oktobald/MachineLearningCoursera:/source ymatsunaga/octave
+docker run --rm -p 8888:8888 -v $(pwd:/source ymatsunaga/octave
 ```
 ### Octave Shell
 ```console
