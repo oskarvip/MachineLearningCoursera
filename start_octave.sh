@@ -1,0 +1,1 @@
+docker run -it --rm -v $(pwd):/home/jovyan/work ymatsunaga/octave octave
